@@ -64,12 +64,13 @@ The survey has four sections:
 
 1. Background information: year of study, social media use, AI tool use, and self-assessed
    ability to identify manipulated online content.
-2. Image source judgement: participants judge each visual item using a five-point scale from
-   "definitely real" to "definitely AI-generated."
-3. Image trust rating: participants rate how trustworthy each visual item would seem if it
-   appeared on social media or another online platform.
+2. Image source judgement and trust rating: for each visual item, participants first judge the
+   source using a five-point scale from "definitely real" to "definitely AI-generated," and then
+   rate how trustworthy the same visual item would seem if it appeared on social media or
+   another online platform.
 4. Media trust and reflection: participants answer four Likert-scale questions about visual
-   media trust and one optional open-ended question about the cues they used.
+   media trust, one optional open-ended question about the cues they used, and one
+   attention-check item for data quality.
 
 No feedback is given during the task. The current Wenjuanxing import file uses a fixed mixed
 order for the image items. If the survey is later rebuilt manually, item randomization can be
@@ -93,6 +94,10 @@ should compare mean trust ratings for AI-generated images and real images, and s
 compare screenshot/interface-like images with ordinary photographs. Additional attitude items
 measure general trust in online images and screenshots, the persuasive effect of interface
 elements, verification habits, and self-confidence in visual judgement.
+
+The final attention-check item asks participants to select "completely disagree." Responses
+that fail this check should be flagged and can be excluded from the main analysis before
+calculating detection accuracy and trust scores.
 
 ## 3.4 Integration of Primary and Supplementary Findings
 
