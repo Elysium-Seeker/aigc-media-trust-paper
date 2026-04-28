@@ -1,0 +1,20 @@
+# Local environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Office temporary files
+~$*
+*.tmp
+
+# Local survey exports can be added deliberately when cleaned
+raw_responses/
+survey_exports/
