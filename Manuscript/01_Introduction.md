@@ -1,21 +1,28 @@
 # Introduction
 
-In February 2024, a deepfake audio clip mimicking the voice of U.S. President Joe Biden was
-robocalled to thousands of New Hampshire voters, urging them not to vote in the primary
-election. Many recipients initially believed it was real. This incident illustrates a broader
-problem: as generative AI tools become widely accessible, synthetic media now circulates
-through the same channels as genuine content, and human perception is struggling to keep up.
+Generative AI is no longer limited to producing obviously artificial images. Newer image
+models can generate photorealistic scenes, readable text, and interface-like layouts. OpenAI's
+GPT Image 2, for example, is documented as a current image model with the snapshot
+`gpt-image-2-2026-04-21` (OpenAI, 2026a). This technical shift matters socially because
+online images are often treated as evidence. A screenshot of a livestream, a social media
+post, or a chat interface does not merely look like a picture; it appears to carry platform
+context, timestamps, comments, accounts, and other cues of authenticity.
 
-Research suggests the gap is already significant. In controlled experiments, people distinguish
-AI-generated content from real content at rates only marginally above random chance, regardless
-of age, education, or media literacy (Frank et al., 2024; Roca et al., 2025). The implications
-go beyond individual misjudgment. When synthetic content becomes indistinguishable from
-authentic sources, public trust in online media erodes — not only because misinformation
-spreads, but because the reliability of real content is also called into question.
+This paper focuses on that changing status of visual evidence. Previous research has shown
+that people often struggle to distinguish AI-generated media from human-created or real media
+(Frank et al., 2024; Roca et al., 2025). Recent work also suggests that realistic
+AI-synthesized images can increase belief in misinformation when they seem to provide strong
+evidence for a claim (Guo et al., 2025), while AI-generated images are already being used by
+spammers and scammers on social platforms for audience growth (DiResta & Goldstein, 2024).
+At the same time, screenshots occupy a special position in online communication because they
+are frequently circulated as visual proof rather than as ordinary photographs (Inwood &
+Zappavigna, 2024).
 
-This paper investigates two connected questions: to what extent can college students in China
-accurately identify AI-generated content across multiple media types, and whether awareness of
-AI-generated content correlates with declining media trust. The study draws primarily on
-findings from existing large-scale detection experiments, supplemented by an original small-
-scale survey. This approach allows for both established empirical breadth and local specificity,
-as prior cross-national studies have largely treated Chinese participants as a minor subgroup.
+The central question of this paper is therefore not simply whether college students can
+identify AI-generated pictures. It asks whether they can judge AI-generated and real visual
+materials in an environment where ordinary photographs, text-bearing images, and
+screenshot-like interfaces all compete for credibility. The study draws on existing research
+about synthetic media detection, misinformation, and online credibility, and supplements it
+with a small-scale survey of Chinese university students. The survey tests source judgement
+and perceived trustworthiness across ten visual items, including ordinary photographs and
+screenshot-like images.

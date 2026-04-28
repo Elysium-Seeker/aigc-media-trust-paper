@@ -17,18 +17,20 @@ The study asks two connected questions:
 
 ## 3.2 Primary Analysis: Existing Experimental Studies
 
-Three studies were selected because they include human participants, a real-vs-AI
-classification task, and quantitative detection accuracy data.
+Four sources were selected because together they support the current visual focus: human
+detection of AI-generated media, image-specific detection performance, the persuasive effect
+of realistic AI images, and the evidential role of screenshots.
 
-| Study | N | Modalities | Population |
-|---|---:|---|---|
-| Frank et al. (2024) | 3,002 | Text, image, audio | USA, Germany, China |
-| Roca et al. (2025) | 12,500+ | Image | Global online participants |
-| Kobis et al. (2025) | 63 | Text | German university lecturers |
+| Source | Evidence type | Relevance |
+|---|---|---|
+| Frank et al. (2024) | Cross-national detection experiment | Baseline for human difficulty in detecting AI-generated media |
+| Roca et al. (2025) | Large-scale image detection experiment | Image-specific accuracy and category differences |
+| Guo et al. (2025) | Misinformation experiment | Realistic AI images can strengthen belief in false claims |
+| Inwood & Zappavigna (2024) | Visual communication analysis | Screenshots function as visual evidence in online communication |
 
-For each study, the analysis compares overall detection accuracy, modality differences, and
-whether background factors such as education, media literacy, or AI familiarity improved
-performance. These findings establish the broader context for interpreting the original survey.
+The analysis uses these sources to interpret not only detection accuracy but also the trust
+ratings collected in the original survey. This is important because the survey asks whether
+screenshot-like images produce different credibility responses from ordinary photographs.
 
 ## 3.3 Supplementary Survey
 
@@ -95,8 +97,8 @@ elements, verification habits, and self-confidence in visual judgement.
 ## 3.4 Integration of Primary and Supplementary Findings
 
 The published studies establish the broader empirical pattern: unaided human detection of
-AI-generated content is often close to chance level. The supplementary survey is interpreted
-against this baseline, with attention to whether Chinese university students show similar
-difficulty in visual judgement, whether screenshot-like materials create different trust
-responses from ordinary photographs, and whether self-confidence aligns with actual detection
-accuracy.
+AI-generated content is often close to chance level, and realistic visual materials can shape
+belief and trust. The supplementary survey is interpreted against this baseline, with
+attention to whether Chinese university students show similar difficulty in visual judgement,
+whether screenshot-like materials create different trust responses from ordinary photographs,
+and whether self-confidence aligns with actual detection accuracy.
