@@ -28,6 +28,7 @@ Paper/
 ## Main Files
 
 - `PAPER_OUTLINE_CN.md`: Chinese outline explaining the research purpose, questions, structure, and current survey design.
+- `CONTRIBUTION_LOG.md`: group member list and dated contribution records.
 - `Manuscript/`: editable paper sections. Group members should work here when drafting the final paper.
 - `Experiment/Questionnaire_WJX.txt`: participant-facing Wenjuanxing import text. It should not include answer keys.
 - `Experiment/Materials_Manifest.csv`: maps each image to its source-judgement question, trust-rating question, ground truth, and material file.
