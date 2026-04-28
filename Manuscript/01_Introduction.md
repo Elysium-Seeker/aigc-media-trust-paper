@@ -21,8 +21,9 @@ Zappavigna, 2024).
 The central question of this paper is therefore not simply whether college students can
 identify AI-generated pictures. It asks whether they can judge AI-generated and real visual
 materials in an environment where ordinary photographs, text-bearing images, and
-screenshot-like interfaces all compete for credibility. The study draws on existing research
-about synthetic media detection, misinformation, and online credibility, and supplements it
-with a small-scale survey of Chinese university students. The survey tests source judgement
-and perceived trustworthiness across ten visual items, including ordinary photographs and
-screenshot-like images.
+screenshot-like interfaces all compete for credibility. The main empirical basis of the paper
+comes from existing experimental and analytical studies on synthetic media detection,
+misinformation, and online credibility. A small-scale survey of Chinese university students is
+used as a supplementary local experiment, testing source judgement and perceived
+trustworthiness across ten visual items, including ordinary photographs and screenshot-like
+images.

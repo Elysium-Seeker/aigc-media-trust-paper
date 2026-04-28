@@ -2,11 +2,12 @@
 
 ## 3.1 Research Design
 
-This study adopts a mixed-methods design combining a comparative review of published
-experiments with a small-scale original survey. The published studies provide the empirical
-baseline for human detection of AI-generated content across different populations and media
-types. The original survey provides a local supplementary test focused on Chinese university
-students' judgement of AI-generated and real visual materials.
+This study adopts a mixed-methods design in which published experimental findings provide the
+primary empirical basis, while the original questionnaire functions as a supplementary local
+experiment. The published studies provide the baseline for human detection of AI-generated
+content across different populations and media types. The original survey adds a small-scale
+test focused on Chinese university students' judgement of AI-generated and real visual
+materials.
 
 The study asks two connected questions:
 
@@ -68,7 +69,7 @@ The survey has four sections:
    source using a five-point scale from "definitely real" to "definitely AI-generated," and then
    rate how trustworthy the same visual item would seem if it appeared on social media or
    another online platform.
-4. Media trust and reflection: participants answer four Likert-scale questions about visual
+3. Media trust and reflection: participants answer four Likert-scale questions about visual
    media trust, one optional open-ended question about the cues they used, and one
    attention-check item for data quality.
 
@@ -101,9 +102,10 @@ calculating detection accuracy and trust scores.
 
 ## 3.4 Integration of Primary and Supplementary Findings
 
-The published studies establish the broader empirical pattern: unaided human detection of
-AI-generated content is often close to chance level, and realistic visual materials can shape
-belief and trust. The supplementary survey is interpreted against this baseline, with
-attention to whether Chinese university students show similar difficulty in visual judgement,
-whether screenshot-like materials create different trust responses from ordinary photographs,
-and whether self-confidence aligns with actual detection accuracy.
+The published studies establish the broader empirical pattern and carry the main explanatory
+weight of the paper: unaided human detection of AI-generated content is often close to chance
+level, and realistic visual materials can shape belief and trust. The supplementary survey is
+interpreted against this baseline, with attention to whether Chinese university students show
+similar difficulty in visual judgement, whether screenshot-like materials create different
+trust responses from ordinary photographs, and whether self-confidence aligns with actual
+detection accuracy.
