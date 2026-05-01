@@ -12,10 +12,10 @@ Q27, Q29, Q31, Q33, Q35, Q37, and Q39:
 - "说不准" = incorrect or missing for the main binary accuracy score.
 
 Trust-rating items Q6, Q8, Q10, Q12, Q14, Q16, Q18, Q20, Q22, Q24, Q26, Q28,
-Q30, Q32, Q34, Q36, Q38, and Q40, and attitude items Q41-Q44 do not have correct
+Q30, Q32, Q34, Q36, Q38, and Q40, and attitude items Q41 and Q43-Q45 do not have correct
 answers. Treat them as five-point Likert variables.
 
-Q46 is an attention-check item. The expected answer is "1 完全不同意". Responses that fail
+Q42 is an attention-check item. The expected answer is "1 完全不同意". Responses that fail
 this item should be flagged and can be excluded from the main analysis.
 
 ## Image Source Items
@@ -45,7 +45,7 @@ this item should be flagged and can be excluded from the main analysis.
 
 Report at least these values:
 
-- Attention-check pass rate: Q46.
+- Attention-check pass rate: Q42.
 - Overall source-judgement accuracy: Q5, Q7, Q9, Q11, Q13, Q15, Q17, Q19, Q21, Q23, Q25, Q27, Q29, Q31, Q33, Q35, Q37, and Q39.
 - AI-item accuracy: Q5, Q9, Q15, Q17, Q21, Q25, Q29, Q33, and Q39.
 - Real-item accuracy: Q7, Q11, Q13, Q19, Q23, Q27, Q31, Q35, and Q37.

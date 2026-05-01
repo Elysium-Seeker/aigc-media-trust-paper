@@ -70,8 +70,8 @@ The survey has four sections:
    rate how trustworthy the same visual item would seem if it appeared on social media or
    another online platform.
 3. Media trust and reflection: participants answer four Likert-scale questions about visual
-   media trust, one optional open-ended question about the cues they used, and one
-   attention-check item for data quality.
+   media trust, one attention-check item for data quality, and one optional open-ended
+   question about the cues they used.
 
 No feedback is given during the task. The current Wenjuanxing import file uses a fixed order
 grouped by visual category so that materials of the same type are presented together. If the
@@ -97,8 +97,8 @@ compare screenshot/interface-like images with ordinary photographs. Additional a
 measure general trust in online images and screenshots, the persuasive effect of interface
 elements, verification habits, and self-confidence in visual judgement.
 
-The final attention-check item asks participants to select "completely disagree." Responses
-that fail this check should be flagged and can be excluded from the main analysis before
+The attention-check item asks participants to select "completely disagree." Responses that
+fail this check should be flagged and can be excluded from the main analysis before
 calculating detection accuracy and trust scores.
 
 ## 3.4 Integration of Primary and Supplementary Findings

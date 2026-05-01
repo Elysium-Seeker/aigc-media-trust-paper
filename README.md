@@ -42,7 +42,7 @@ Paper/
 1. 将 `Experiment/Questionnaire_WJX.txt` 复制到问卷星文本导入功能中。
 2. 根据 `Experiment/Materials_Manifest.csv` 将图片插入到对应题目。
 3. 不要向参与者公开 `Experiment/Answer_Key_Internal.md`。
-4. 回收问卷后，先根据最后的数据质量检查题筛选或标记无效回答。
+4. 回收问卷后，先根据 Q42 数据质量检查题筛选或标记无效回答。
 5. 分别统计来源判断准确率、AI 图片准确率、真实图片准确率、不同图片类别准确率和图片可信度评分。
 
 ## 协作规则
