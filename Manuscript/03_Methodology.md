@@ -44,8 +44,8 @@ valid responses collected.
 
 ### 3.3.2 Materials
 
-The current survey uses image-only materials. It contains ten visual items: five AI-generated
-images and five real images. The materials cover both ordinary photorealistic images and
+The current survey uses image-only materials. It contains eighteen visual items: nine
+AI-generated images and nine real images. The materials cover both ordinary photorealistic images and
 screenshot-like visual evidence:
 
 - text-bearing visual artifacts, such as postcard or document-like images;
@@ -73,9 +73,10 @@ The survey has four sections:
    media trust, one optional open-ended question about the cues they used, and one
    attention-check item for data quality.
 
-No feedback is given during the task. The current Wenjuanxing import file uses a fixed mixed
-order for the image items. If the survey is later rebuilt manually, item randomization can be
-added in Wenjuanxing as an optional improvement.
+No feedback is given during the task. The current Wenjuanxing import file uses a fixed order
+grouped by visual category so that materials of the same type are presented together. If the
+survey is later rebuilt manually, item randomization within each category can be added in
+Wenjuanxing as an optional improvement.
 
 ### 3.3.4 Measures
 

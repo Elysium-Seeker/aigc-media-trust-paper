@@ -1,11 +1,19 @@
 image_id,material_path,ground_truth,source_question_id,trust_question_id,category,notes
-Image 1,materials/images/ai/1.jpg,AI,Q5,Q6,text-bearing visual artifact,AI-generated postcard-style image
-Image 2,materials/images/real/01.png,real,Q7,Q8,text-bearing visual artifact,real postcard/document image
-Image 3,materials/images/real/02.jpg,real,Q9,Q10,portrait,real portrait photograph
-Image 4,materials/images/ai/2.jpg,AI,Q11,Q12,portrait,AI-generated portrait photograph
-Image 5,materials/images/ai/3.jpg,AI,Q13,Q14,livestream commerce screenshot,AI-generated livestream shopping interface
-Image 6,materials/images/real/03.jpg,real,Q15,Q16,livestream commerce screenshot,real livestream shopping screenshot
-Image 7,materials/images/ai/4.jpg,AI,Q17,Q18,food photo,AI-generated food photograph
-Image 8,materials/images/real/04.png,real,Q19,Q20,food photo,real food photograph
-Image 9,materials/images/real/05.png,real,Q21,Q22,virtual livestream interface,real VTuber livestream interface
-Image 10,materials/images/ai/5.jpg,AI,Q23,Q24,virtual livestream interface,AI-generated VTuber livestream interface
+Image 1,materials/images/ai/text_artifact_ai_01.jpg,AI,Q5,Q6,text-bearing visual artifact,AI-generated postcard-style image
+Image 2,materials/images/real/text_artifact_real_01.png,real,Q7,Q8,text-bearing visual artifact,real postcard/document image
+Image 3,materials/images/ai/text_artifact_ai_02.jpg,AI,Q9,Q10,text-bearing visual artifact,AI-generated postcard-style image
+Image 4,materials/images/real/text_artifact_real_02.jpg,real,Q11,Q12,text-bearing visual artifact,real postcard/document image
+Image 5,materials/images/real/portrait_real_01.jpg,real,Q13,Q14,portrait,real portrait photograph
+Image 6,materials/images/ai/portrait_ai_01.jpg,AI,Q15,Q16,portrait,AI-generated portrait photograph
+Image 7,materials/images/ai/portrait_ai_02.jpg,AI,Q17,Q18,portrait,AI-generated street portrait photograph
+Image 8,materials/images/real/portrait_real_02.jpg,real,Q19,Q20,portrait,real street portrait photograph
+Image 9,materials/images/ai/livestream_commerce_ai_01.jpg,AI,Q21,Q22,livestream commerce screenshot,AI-generated livestream shopping interface
+Image 10,materials/images/real/livestream_commerce_real_01.jpg,real,Q23,Q24,livestream commerce screenshot,real livestream shopping screenshot
+Image 11,materials/images/ai/livestream_commerce_ai_02.jpg,AI,Q25,Q26,livestream commerce screenshot,AI-generated livestream shopping interface
+Image 12,materials/images/real/livestream_commerce_real_02.jpg,real,Q27,Q28,livestream commerce screenshot,real livestream shopping screenshot
+Image 13,materials/images/ai/food_photo_ai_01.jpg,AI,Q29,Q30,food photo,AI-generated food photograph
+Image 14,materials/images/real/food_photo_real_01.png,real,Q31,Q32,food photo,real food photograph
+Image 15,materials/images/ai/food_photo_ai_02.jpg,AI,Q33,Q34,food photo,AI-generated food photograph
+Image 16,materials/images/real/food_photo_real_02.jpg,real,Q35,Q36,food photo,real food photograph
+Image 17,materials/images/real/virtual_livestream_real_01.png,real,Q37,Q38,virtual livestream interface,real VTuber livestream interface
+Image 18,materials/images/ai/virtual_livestream_ai_01.jpg,AI,Q39,Q40,virtual livestream interface,AI-generated VTuber livestream interface

@@ -25,5 +25,5 @@ screenshot-like interfaces all compete for credibility. The main empirical basis
 comes from existing experimental and analytical studies on synthetic media detection,
 misinformation, and online credibility. A small-scale survey of Chinese university students is
 used as a supplementary local experiment, testing source judgement and perceived
-trustworthiness across ten visual items, including ordinary photographs and screenshot-like
+trustworthiness across eighteen visual items, including ordinary photographs and screenshot-like
 images.
