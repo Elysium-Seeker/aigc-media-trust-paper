@@ -18,6 +18,7 @@ Paper/
     Questionnaire_WJX.txt
     Answer_Key_Internal.md
     Materials_Manifest.csv
+    Results_Summary.md
     materials/
       images/
   References/
@@ -39,6 +40,7 @@ Paper/
 - `Experiment/Questionnaire_WJX.txt`：问卷星导入文本，面向参与者，不包含答案。
 - `Experiment/Materials_Manifest.csv`：实验材料清单，记录每张图片对应的来源判断题、可信度题、真实标签和文件路径。
 - `Experiment/Answer_Key_Internal.md`：研究者内部使用的答案和评分规则，不应发给问卷参与者。
+- `Experiment/Results_Summary.md`：问卷结果的汇总统计，不包含个人答卷元数据。
 - `References/References_APA.md`：APA 格式参考文献列表。
 - `References/Source_Links.md`：引用来源链接和本地文件保存情况。
 
@@ -54,5 +56,6 @@ Paper/
 
 - 论文正文统一在 `Manuscript/` 中修改。
 - 原始实验材料统一放在 `Experiment/materials/` 中。
+- 问卷星原始导出文件包含提交时间、IP 等元数据，只保留本地；公开仓库中使用汇总结果。
 - 新增引用时，同时更新 `References/References_APA.md` 和 `References/Source_Links.md`。
 - 不要把临时脚本、虚拟环境、缓存文件或本地工具文件夹放进本项目。

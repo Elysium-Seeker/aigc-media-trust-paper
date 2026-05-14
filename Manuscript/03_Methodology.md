@@ -37,10 +37,17 @@ screenshot-like images produce different credibility responses from ordinary pho
 
 ### 3.3.1 Participants
 
-Participants are recruited through convenience sampling among university students. The survey
-is distributed online through Wenjuanxing. Eligible participants should be currently enrolled
-university students aged 18 or above. The final paper should replace `[N]` with the number of
-valid responses collected.
+Participants were recruited through convenience sampling and completed the survey online
+through Wenjuanxing. A total of 79 responses were collected. Ten responses failed the Q42
+attention-check item, and three attention-check passers reported "high school or below" as
+their current education level. These responses were excluded from the main analysis so that
+the analytic sample matched the study's university-level focus. The final analytic sample
+therefore included 66 valid university-level respondents.
+
+Within this analytic sample, 26 respondents were first-year students, 14 were second-year
+students, 10 were third-year students, and 16 were fourth-year-or-above students or recent
+graduates. Most respondents used social media for at least one hour per day, and most had used
+AI tools either daily or weekly.
 
 ### 3.3.2 Materials
 

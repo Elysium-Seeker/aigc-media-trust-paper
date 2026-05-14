@@ -47,11 +47,17 @@ al., 2024; Guo et al., 2025; Inwood & Zappavigna, 2024; Roca et al., 2025).
 
 ### Participants and Sample
 
-Participants will be recruited through convenience sampling among university students. The
-survey is distributed online through Wenjuanxing. Eligible participants should be currently
-enrolled university students aged 18 or above. The final paper will replace `[N]` with the
-number of valid responses collected after removing invalid responses based on the attention
-check.
+Participants were recruited through convenience sampling and completed the survey online
+through Wenjuanxing. A total of 79 responses were collected. Ten responses failed the Q42
+attention-check item, and three attention-check passers reported "high school or below" as
+their current education level. These responses were excluded from the main analysis so that
+the analytic sample matched the study's university-level focus. The final analytic sample
+therefore included 66 valid university-level respondents.
+
+Within this analytic sample, 26 respondents were first-year students, 14 were second-year
+students, 10 were third-year students, and 16 were fourth-year-or-above students or recent
+graduates. Most respondents used social media for at least one hour per day, and most had used
+AI tools either daily or weekly.
 
 ### Materials
 
@@ -119,36 +125,56 @@ participants are uncertain about their source.
 
 ### Supplementary Survey Results
 
-At the time of this draft, the questionnaire has been finalized but the response data have not
-yet been collected. The final paper will report the valid sample size after excluding
-responses that fail the Q42 attention-check item. The planned results section will report
-descriptive statistics rather than strong causal claims, because the survey uses convenience
-sampling and is intended as a supplementary local experiment.
+The Wenjuanxing survey collected 79 responses. Of these, 69 responses passed the Q42
+attention-check item, giving an attention-check pass rate of 87.3%. Three attention-check
+passers reported "high school or below" as their education level and were excluded because the
+study focuses on university-level respondents. The final analytic sample therefore included
+66 valid responses.
 
-| Result item | Planned report |
-|---|---|
-| Valid sample | Number of valid responses after the Q42 attention check |
-| Overall detection accuracy | Mean accuracy across all 18 source-judgement items |
-| AI-image accuracy | Mean accuracy across the 9 AI-generated images |
-| Real-image accuracy | Mean accuracy across the 9 real images or screenshots |
-| Category accuracy | Accuracy for text-bearing artifacts, portraits, livestream commerce screenshots, food photos, and virtual livestream interfaces |
-| Trust rating | Mean trust rating for each image and for each category |
-| Attitude items | Mean responses for general image trust, screenshot trust, verification habits, and self-confidence |
+Across all 18 image source-judgement items, the mean detection accuracy was 47.4%. Accuracy
+was higher for AI-generated images (52.9%) than for real images or screenshots (41.9%).
+This pattern suggests that respondents were not simply accepting all images as real. Instead,
+many real images were treated with suspicion and misclassified as AI-generated.
 
-The expected analysis will compare performance across image source and image type. If
-participants identify ordinary food or portrait photographs more accurately than livestream
-or screenshot-like materials, this would support the idea that interface elements make visual
-judgement harder. If AI-generated screenshots receive trust ratings close to real screenshots,
-the result would suggest that synthetic images may not need to be perfectly detected in order
-to influence perceived credibility.
+| Image category | Accuracy |
+|---|---:|
+| Text-bearing visual artifacts | 56.8% |
+| Portrait images | 39.8% |
+| Livestream commerce screenshots | 58.3% |
+| Food photographs | 31.1% |
+| Virtual livestream interfaces | 54.5% |
 
-The results will be interpreted together with the existing literature rather than as a
-standalone experiment. If the survey shows low detection accuracy, it will align with earlier
-findings that human detection of synthetic visual media is limited. If participants express
-high confidence but show low accuracy, this will suggest a gap between perceived and actual
-media literacy. Finally, if screenshot-like AI materials receive relatively high trust
-ratings, the study will support the broader claim that generative AI threatens not only the
-truth of individual images but also the social reliability of screenshots as evidence.
+Category-level results show that livestream commerce screenshots and text-bearing visual
+artifacts produced the highest accuracy in this sample, while food photographs produced the
+lowest accuracy. The food-photo result is especially important because both real food images
+were frequently judged as AI-generated. This supports the broader claim that the spread of
+AI-generated images can create uncertainty not only about synthetic images, but also about
+real images that happen to look polished or artificial.
+
+Trust ratings were measured on a five-point scale from 1 ("not trustworthy at all") to 5
+("very trustworthy"). Real images received a slightly higher mean trust rating (M = 2.99)
+than AI-generated images (M = 2.70), but the difference was modest. By category, portrait
+images received the highest average trust rating (M = 3.14), followed by text-bearing visual
+artifacts (M = 2.98), virtual livestream interfaces (M = 2.73), livestream commerce
+screenshots (M = 2.70), and food photographs (M = 2.62).
+
+The attitude items also show a cautious pattern of media trust. Respondents generally did not
+agree that online images and screenshots usually reflect reality (M = 2.39). At the same
+time, nearly half of the valid respondents agreed or strongly agreed that platform elements
+such as interfaces, comments, or livestream features can make screenshots more believable.
+Most respondents also reported verification habits: 42 out of 66 agreed or strongly agreed
+that they would look for sources or context when seeing realistic online images or
+screenshots. However, confidence in personal judgement was moderate to low (M = 2.83), with
+only 17 out of 66 agreeing or strongly agreeing that they were confident in judging whether
+online images were real.
+
+The local survey results fit the broader pattern in the literature. Participants did not show
+stable or highly accurate source judgement; fewer than half of all image classifications were
+correct. AI-generated images were identified more accurately than real images, which suggests
+that the problem is not only the acceptance of fake images, but also the erosion of trust in
+real visual materials. Overall, the survey supports the paper's main argument: as
+AI-generated images become more realistic, ordinary visual judgement becomes a fragile basis
+for deciding what online images and screenshots should be trusted.
 
 ## References
 

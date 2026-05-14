@@ -18,3 +18,4 @@ desktop.ini
 # Local survey exports can be added deliberately when cleaned
 raw_responses/
 survey_exports/
+Experiment/*.xlsx
