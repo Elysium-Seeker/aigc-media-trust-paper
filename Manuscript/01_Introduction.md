@@ -18,12 +18,9 @@ At the same time, screenshots occupy a special position in online communication 
 are frequently circulated as visual proof rather than as ordinary photographs (Inwood &
 Zappavigna, 2024).
 
-The central question of this paper is therefore not simply whether college students can
-identify AI-generated pictures. It asks whether they can judge AI-generated and real visual
-materials in an environment where ordinary photographs, text-bearing images, and
-screenshot-like interfaces all compete for credibility. The main empirical basis of the paper
-comes from existing experimental and analytical studies on synthetic media detection,
-misinformation, and online credibility. A small-scale survey of Chinese university students is
-used as a supplementary local experiment, testing source judgement and perceived
-trustworthiness across eighteen visual items, including ordinary photographs and screenshot-like
-images.
+This paper therefore asks a clearer research question: How accurately did university-level
+respondents distinguish AI-generated images from real images across common online visual
+categories, and how did their trust ratings differ by image source and category? To answer
+this question, the study uses a small-scale Wenjuanxing survey as its main local data source.
+Existing studies on synthetic media detection, misinformation, and visual evidence are used
+to frame and interpret the survey findings rather than to replace the local results.

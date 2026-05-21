@@ -21,13 +21,22 @@ project, that means livestream interfaces, platform-style screenshots, and text-
 materials may create a stronger sense of authenticity than ordinary photographs, even when
 participants are uncertain about their source.
 
-## 4.2 Supplementary Survey Sample
+## 4.2 Survey Sample
 
 The Wenjuanxing survey collected 79 responses. Of these, 69 responses passed the Q42
 attention-check item, giving an attention-check pass rate of 87.3%. Three attention-check
 passers reported "high school or below" as their education level and were excluded because the
 study focuses on university-level respondents. The final analytic sample therefore included
 66 valid responses.
+
+**Table 1. Sample screening and final analytic sample**
+
+| Screening step | Responses |
+|---|---:|
+| Submitted responses | 79 |
+| Passed Q42 attention check | 69 |
+| Excluded for non-university-level education | 3 |
+| Final analytic sample | 66 |
 
 Among the 66 valid respondents, 26 were first-year students, 14 were second-year students, 10
 were third-year students, and 16 were fourth-year-or-above students or recent graduates. Most
@@ -43,6 +52,8 @@ was higher for AI-generated images (52.9%) than for real images or screenshots (
 This pattern suggests that respondents were not simply accepting all images as real. Instead,
 many real images were treated with suspicion and misclassified as AI-generated.
 
+**Table 2. Source-judgement accuracy by visual category**
+
 | Image category | Accuracy |
 |---|---:|
 | Text-bearing visual artifacts | 56.8% |
@@ -50,6 +61,8 @@ many real images were treated with suspicion and misclassified as AI-generated.
 | Livestream commerce screenshots | 58.3% |
 | Food photographs | 31.1% |
 | Virtual livestream interfaces | 54.5% |
+
+![Figure 1. Source-judgement accuracy by visual category.](../Submissions/accuracy_by_category.png)
 
 Category-level results show that livestream commerce screenshots and text-bearing visual
 artifacts produced the highest accuracy in this sample, while food photographs produced the

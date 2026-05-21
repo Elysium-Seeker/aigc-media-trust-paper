@@ -28,7 +28,8 @@ Paper/
     files/
   Submissions/
     Class_Group_Name_IMR.md
-    Class_Group_Name_IMR.docx
+    Class X + Group 6 + I + M + R.docx
+    accuracy_by_category.png
 ```
 
 ## 主要文件

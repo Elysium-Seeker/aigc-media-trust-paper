@@ -20,30 +20,28 @@ At the same time, screenshots occupy a special position in online communication 
 are frequently circulated as visual proof rather than as ordinary photographs (Inwood &
 Zappavigna, 2024).
 
-The central question of this paper is therefore not simply whether college students can
-identify AI-generated pictures. It asks whether they can judge AI-generated and real visual
-materials in an environment where ordinary photographs, text-bearing images, and
-screenshot-like interfaces all compete for credibility. The main empirical basis of the paper
-comes from existing experimental and analytical studies on synthetic media detection,
-misinformation, and online credibility. A small-scale survey of Chinese university students is
-used as a supplementary local experiment, testing source judgement and perceived
-trustworthiness across eighteen visual items.
+This paper therefore asks a clearer research question: How accurately did university-level
+respondents distinguish AI-generated images from real images across common online visual
+categories, and how did their trust ratings differ by image source and category? To answer
+this question, the study uses a small-scale Wenjuanxing survey as its main local data source.
+Existing studies on synthetic media detection, misinformation, and visual evidence are used
+to frame and interpret the survey findings rather than to replace the local results.
 
 ## Methods
 
 ### Research Design
 
-This study adopts a mixed-methods design in which published experimental findings provide the
-primary empirical basis, while the original questionnaire functions as a supplementary local
-experiment. The published studies provide the baseline for human detection of AI-generated
-content across different populations and media types. The original survey adds a small-scale
-test focused on Chinese university students' judgement of AI-generated and real visual
-materials.
+This study used a small-scale quantitative survey design. The Wenjuanxing survey provided the
+main local data for testing how university-level respondents judged AI-generated and real
+visual materials. Previous studies were used as background evidence because they explain why
+human detection of AI-generated images is difficult and why screenshot-like materials can
+influence credibility.
 
-Four sources were selected as the main empirical foundation because they support the current
-visual focus: human detection of AI-generated media, image-specific detection performance, the
-persuasive effect of realistic AI images, and the evidential role of screenshots (Frank et
-al., 2024; Guo et al., 2025; Inwood & Zappavigna, 2024; Roca et al., 2025).
+Four sources were used to guide the survey design and interpretation. Frank et al. (2024) and
+Roca et al. (2025) were used because they report human difficulty in detecting AI-generated
+media and images. Guo et al. (2025) was used because it connects realistic AI-generated
+images with misinformation credibility. Inwood and Zappavigna (2024) was used because it
+explains why screenshots often function as visual evidence in online communication.
 
 ### Participants and Sample
 
@@ -61,44 +59,55 @@ AI tools either daily or weekly.
 
 ### Materials
 
-The survey uses image-only materials. It contains eighteen visual items: nine AI-generated
-images and nine real images. The materials cover both ordinary photorealistic images and
-screenshot-like visual evidence. The five categories are text-bearing visual artifacts,
+The survey used image-only materials. It contained eighteen visual items: nine AI-generated
+images and nine real images. The materials covered both ordinary photorealistic images and
+screenshot-like visual evidence. The five categories were text-bearing visual artifacts,
 portrait images, livestream commerce screenshots, food photographs, and virtual livestream or
-VTuber interface images. Each category contains matched AI-generated and real examples when
-possible. The participant-facing questionnaire does not reveal whether a file is AI-generated
-or real.
+VTuber interface images. Each category contained matched AI-generated and real examples when
+possible.
+
+The 18 items were selected purposively rather than randomly. Because the study focused on
+online visual credibility, the materials were chosen to cover five visual types that people
+commonly encounter on digital platforms. The set was also balanced by source, with nine
+AI-generated images and nine real images. Therefore, the materials should not be treated as a
+statistically representative sample of all online images; they were designed to compare
+responses across selected image categories. The participant-facing questionnaire did not
+reveal whether a file was AI-generated or real.
 
 ### Measures
 
-The survey includes source-judgement items, trust-rating items, attitude items, one attention
-check, and one optional open-ended question. For each image, participants first judge its
+The survey included source-judgement items, trust-rating items, attitude items, one attention
+check, and one optional open-ended question. For each image, participants first judged its
 source on a five-point scale from "definitely real" to "definitely AI-generated." They then
-rate how trustworthy the same image would seem if it appeared on social media or another
+rated how trustworthy the same image would seem if it appeared on social media or another
 online platform.
 
-Detection accuracy is calculated as the proportion of correctly classified source-judgement
+Detection accuracy was calculated as the proportion of correctly classified source-judgement
 items. For binary accuracy scoring, "definitely real" and "probably real" are counted as
 correct for real images, while "probably AI-generated" and "definitely AI-generated" are
-counted as correct for AI-generated images. "Unsure" is treated as incorrect or missing for
-the main accuracy score. Trust is measured through one five-point rating for each image. The
-attitude items measure general trust in online images and screenshots, the persuasive effect
+counted as correct for AI-generated images. "Unsure" was treated as incorrect or missing for
+the main accuracy score. Trust was measured through one five-point rating for each image. The
+attitude items measured general trust in online images and screenshots, the persuasive effect
 of interface elements, verification habits, and self-confidence in visual judgement. Q42 is an
 attention-check item requiring participants to select "completely disagree."
 
 ### Procedures
 
-The survey has three sections. First, participants answer background questions about year of
-study, social media use, AI tool use, and self-assessed ability to identify manipulated online
-content. Second, participants complete the image source-judgement and trust-rating task. For
-each visual item, they judge the source and then rate perceived trustworthiness. Third,
-participants answer four media-trust attitude questions, one attention-check item, and one
-optional open-ended question about the cues they used.
+The survey had three sections. First, to describe the sample and control for relevant
+background differences, participants reported their year of study, daily social media use, AI
+tool use, and self-assessed ability to identify AI-generated or edited online images. Second,
+to measure source judgement before credibility judgement, participants completed the image
+task in two steps for each visual item. They first judged whether the image was real or
+AI-generated, and after that they rated how trustworthy the same image would seem if it
+appeared on social media or another online platform. Third, after finishing all image tasks,
+participants answered four media-trust attitude questions, one Q42 attention-check item, and
+one optional open-ended question about the cues they used.
 
-No feedback is given during the task. The current Wenjuanxing version uses a fixed order
-grouped by visual category so that materials of the same type are presented together. During
-analysis, responses that fail Q42 will be flagged and can be excluded from the main analysis
-before calculating detection accuracy and trust scores.
+No feedback was given during the task so that later answers would not be influenced by
+earlier corrections. Because the study compared responses across visual categories, the
+Wenjuanxing version grouped materials of the same type together. During analysis, responses
+that failed Q42 were flagged and excluded before detection accuracy and trust scores were
+calculated.
 
 ## Results
 
@@ -123,7 +132,7 @@ project, that means livestream interfaces, platform-style screenshots, and text-
 materials may create a stronger sense of authenticity than ordinary photographs, even when
 participants are uncertain about their source.
 
-### Supplementary Survey Results
+### Survey Results
 
 The Wenjuanxing survey collected 79 responses. Of these, 69 responses passed the Q42
 attention-check item, giving an attention-check pass rate of 87.3%. Three attention-check
@@ -131,10 +140,21 @@ passers reported "high school or below" as their education level and were exclud
 study focuses on university-level respondents. The final analytic sample therefore included
 66 valid responses.
 
+**Table 1. Sample screening and final analytic sample**
+
+| Screening step | Responses |
+|---|---:|
+| Submitted responses | 79 |
+| Passed Q42 attention check | 69 |
+| Excluded for non-university-level education | 3 |
+| Final analytic sample | 66 |
+
 Across all 18 image source-judgement items, the mean detection accuracy was 47.4%. Accuracy
 was higher for AI-generated images (52.9%) than for real images or screenshots (41.9%).
 This pattern suggests that respondents were not simply accepting all images as real. Instead,
 many real images were treated with suspicion and misclassified as AI-generated.
+
+**Table 2. Source-judgement accuracy by visual category**
 
 | Image category | Accuracy |
 |---|---:|
@@ -143,6 +163,8 @@ many real images were treated with suspicion and misclassified as AI-generated.
 | Livestream commerce screenshots | 58.3% |
 | Food photographs | 31.1% |
 | Virtual livestream interfaces | 54.5% |
+
+![Figure 1. Source-judgement accuracy by visual category.](accuracy_by_category.png)
 
 Category-level results show that livestream commerce screenshots and text-bearing visual
 artifacts produced the highest accuracy in this sample, while food photographs produced the

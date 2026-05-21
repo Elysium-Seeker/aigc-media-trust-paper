@@ -19,3 +19,7 @@ desktop.ini
 raw_responses/
 survey_exports/
 Experiment/*.xlsx
+
+# Local feedback/submission copies
+*QunCommented.docx
+Submissions/Group 6.docx
