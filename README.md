@@ -19,6 +19,7 @@ Paper/
     Answer_Key_Internal.md
     Materials_Manifest.csv
     Results_Summary.md
+    Survey_Responses_Anonymized.xlsx
     materials/
       images/
   References/
@@ -42,6 +43,7 @@ Paper/
 - `Experiment/Materials_Manifest.csv`：实验材料清单，记录每张图片对应的来源判断题、可信度题、真实标签和文件路径。
 - `Experiment/Answer_Key_Internal.md`：研究者内部使用的答案和评分规则，不应发给问卷参与者。
 - `Experiment/Results_Summary.md`：问卷结果的汇总统计，不包含个人答卷元数据。
+- `Experiment/Survey_Responses_Anonymized.xlsx`：去标识化后的问卷答卷数据，保留题目回答，移除提交时间、IP 等问卷星元数据。
 - `References/References_APA.md`：APA 格式参考文献列表。
 - `References/Source_Links.md`：引用来源链接和本地文件保存情况。
 
