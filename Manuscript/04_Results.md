@@ -45,6 +45,20 @@ images received the highest average trust rating (M = 3.14), followed by text-be
 artifacts (M = 2.98), virtual livestream interfaces (M = 2.73), livestream commerce
 screenshots (M = 2.70), and food photographs (M = 2.62).
 
+**Table 3. Mean trust ratings by image source and visual category**
+
+| Group | Mean trust rating |
+|---|---:|
+| AI-generated images | 2.70 |
+| Real images/screenshots | 2.99 |
+| Portrait images | 3.14 |
+| Text-bearing visual artifacts | 2.98 |
+| Virtual livestream interfaces | 2.73 |
+| Livestream commerce screenshots | 2.70 |
+| Food photographs | 2.62 |
+
+![Figure 3. Mean trust rating by visual category.](../Submissions/trust_by_category.png)
+
 The attitude items showed a cautious pattern of media trust. Respondents generally did not
 agree that online images and screenshots usually reflect reality (M = 2.39). At the same
 time, many respondents agreed that platform elements such as interfaces, comments, or

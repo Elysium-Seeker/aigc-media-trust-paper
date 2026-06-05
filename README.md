@@ -38,6 +38,7 @@ Paper/
     Class 3 Group 6 IMRD revised.docx
     accuracy_by_category.png
     stimulus_examples.png
+    trust_by_category.png
 ```
 
 ## 主要文件
