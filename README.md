@@ -14,6 +14,7 @@ Paper/
     02_Literature_Review.md
     03_Methodology.md
     04_Results.md
+    05_Discussion.md
   Experiment/
     Questionnaire_WJX.txt
     Answer_Key_Internal.md
@@ -29,7 +30,9 @@ Paper/
     files/
   Submissions/
     Class_Group_Name_IMR.md
-    Class X + Group 6 + I + M + R.docx
+    Class_3_Group_6_IMRD.md
+    Class 3 Group 6 IMR.docx
+    Class 3 Group 6 IMRD.docx
     accuracy_by_category.png
 ```
 
