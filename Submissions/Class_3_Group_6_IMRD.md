@@ -218,6 +218,23 @@ increase perceived credibility even when viewers are unsure about the image sour
 reason, AI-generated visual misinformation should be understood not only as a problem of fake
 photographs, but also as a problem of fake visual context.
 
+### Limitations and Implications
+
+Several limitations should be noted. First, the survey used a small convenience sample of
+university-level respondents, so the results should be interpreted as descriptive rather than
+representative of all social media users. Second, the stimulus set was purposively selected and
+contained only 18 images. Differences in image topic, resolution, platform style, and visual
+quality may have influenced participants' judgements. Third, the original prompts used to
+generate the AI images were not preserved. Any prompt appendix prepared for this project should
+therefore be treated as reconstructed documentation rather than an exact record of the original
+generation process.
+
+Even with these limitations, the findings suggest two practical implications. Platforms and
+educators should not assume that users can reliably identify AI-generated images through visual
+inspection alone. In addition, media literacy training should address not only fake photographs
+but also fake visual contexts, including livestream interfaces, screenshots, comments, prices,
+and other platform cues that can make synthetic material appear socially credible.
+
 Overall, the study suggests that ordinary visual judgement is not enough for evaluating
 AI-generated online images. Respondents showed limited accuracy, moderate trust, and some
 uncertainty about both real and AI-generated materials. As image-generation tools become

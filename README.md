@@ -15,6 +15,8 @@ Paper/
     03_Methodology.md
     04_Results.md
     05_Discussion.md
+  Appendices/
+    Reconstructed_AI_Image_Prompts.md
   Experiment/
     Questionnaire_WJX.txt
     Answer_Key_Internal.md
@@ -43,6 +45,7 @@ Paper/
 - `PAPER_OUTLINE_CN.md`：中文论文大纲，说明研究目的、研究问题、论文结构和当前问卷设计。
 - `CONTRIBUTION_LOG.md`：小组成员名单和按日期记录的贡献日志。
 - `Manuscript/`：论文正文草稿。后续写作和修改主要在这里进行。
+- `Appendices/Reconstructed_AI_Image_Prompts.md`：根据最终 AI 图片材料反推的提示词准备稿。由于原始提示词未保存，该文件只能作为重建版方法记录，不能当作原始生成记录。
 - `Submissions/`：按课程作业格式整理出的阶段性提交文件。
 - `Experiment/Questionnaire_WJX.txt`：问卷星导入文本，面向参与者，不包含答案。
 - `Experiment/Materials_Manifest.csv`：实验材料清单，记录每张图片对应的来源判断题、可信度题、真实标签和文件路径。
