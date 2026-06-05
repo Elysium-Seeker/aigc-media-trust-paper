@@ -33,7 +33,9 @@ Paper/
     Class_3_Group_6_IMRD.md
     Class 3 Group 6 IMR.docx
     Class 3 Group 6 IMRD.docx
+    Class 3 Group 6 IMRD revised.docx
     accuracy_by_category.png
+    stimulus_examples.png
 ```
 
 ## 主要文件

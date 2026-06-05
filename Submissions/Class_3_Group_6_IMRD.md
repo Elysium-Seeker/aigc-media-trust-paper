@@ -70,6 +70,8 @@ statistically representative sample of all online images; they were designed to 
 responses across selected image categories. The participant-facing questionnaire did not
 reveal whether a file was AI-generated or real.
 
+![Figure 1. Examples of survey stimuli by source and visual category.](stimulus_examples.png)
+
 ### Measures
 
 The survey included source-judgement items, trust-rating items, attitude items, one attention
@@ -133,7 +135,7 @@ were also treated with suspicion and misclassified as AI-generated.
 | Portrait images | 39.8% |
 | Food photographs | 31.1% |
 
-![Figure 1. Source-judgement accuracy by visual category.](accuracy_by_category.png)
+![Figure 2. Source-judgement accuracy by visual category.](accuracy_by_category.png)
 
 Trust ratings were measured on a five-point scale from 1 ("not trustworthy at all") to 5
 ("very trustworthy"). Real images received a slightly higher mean trust rating (M = 2.99)

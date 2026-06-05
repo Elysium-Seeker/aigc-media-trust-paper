@@ -34,7 +34,7 @@ were also treated with suspicion and misclassified as AI-generated.
 | Portrait images | 39.8% |
 | Food photographs | 31.1% |
 
-![Figure 1. Source-judgement accuracy by visual category.](../Submissions/accuracy_by_category.png)
+![Figure 2. Source-judgement accuracy by visual category.](../Submissions/accuracy_by_category.png)
 
 ## 4.3 Trust Ratings and Attitudes
 

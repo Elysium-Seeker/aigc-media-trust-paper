@@ -72,6 +72,8 @@ source-judgement question numbers, and trust-rating question numbers are listed 
 `Experiment/Materials_Manifest.csv`. The participant-facing questionnaire did not reveal
 whether a file was AI-generated or real.
 
+![Figure 1. Examples of survey stimuli by source and visual category.](../Submissions/stimulus_examples.png)
+
 ### 3.3.3 Procedure
 
 The survey had three sections. First, to describe the sample and control for relevant
