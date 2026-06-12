@@ -41,6 +41,19 @@ this item should be flagged and can be excluded from the main analysis.
 | Image 17 | Q37 | Q38 | `materials/images/real/virtual_livestream_real_01.png` | Real | Virtual livestream interface |
 | Image 18 | Q39 | Q40 | `materials/images/ai/virtual_livestream_ai_01.jpg` | AI-generated | Virtual livestream interface |
 
+## Material Creation Routes
+
+Use `Experiment/Materials_Manifest.csv` as the authoritative route table. The route variable
+has two values:
+
+- AI-first matched real: an AI-generated image was prepared first, and a visually similar real
+  image was later selected for comparison.
+- Real-to-AI modification: a real image was used as the source or reference for an AI-modified
+  counterpart.
+
+For route-level analysis, compare source-judgement accuracy and mean trust ratings by
+`material_creation_route` and by `ground_truth`.
+
 ## Recommended Result Tables
 
 Report at least these values:
@@ -50,6 +63,7 @@ Report at least these values:
 - AI-item accuracy: Q5, Q9, Q15, Q17, Q21, Q25, Q29, Q33, and Q39.
 - Real-item accuracy: Q7, Q11, Q13, Q19, Q23, Q27, Q31, Q35, and Q37.
 - Category-level accuracy: text-bearing artifact, portrait, livestream commerce screenshot, food photo, and virtual livestream interface.
+- Route-level accuracy: AI-first matched real vs real-to-AI modification, including route-by-ground-truth breakdown.
 - Mean trust rating for each image: Q6, Q8, Q10, Q12, Q14, Q16, Q18, Q20, Q22, Q24, Q26, Q28, Q30, Q32, Q34, Q36, Q38, and Q40.
 - Mean trust rating by ground truth: AI-generated images vs real images.
 - Mean trust rating by category: especially screenshot/interface-like images vs ordinary photos.

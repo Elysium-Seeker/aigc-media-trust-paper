@@ -59,6 +59,30 @@ screenshots (M = 2.70), and food photographs (M = 2.62).
 
 ![Figure 3. Mean trust rating by visual category.](../Submissions/trust_by_category.png)
 
+## 4.4 Material Creation Route Analysis
+
+Because the stimulus set used two preparation routes, an additional descriptive analysis
+compared accuracy and trust by material creation route. Items from the AI-first matched-real
+route had an overall accuracy of 52.4% and a mean trust rating of 2.69. Items from the
+real-to-AI modification route had lower overall accuracy (41.1%) and a higher mean trust
+rating (M = 3.04).
+
+**Table 4. Accuracy and trust by material creation route**
+
+| Material creation route | Image source | Accuracy | Mean trust rating |
+|---|---|---:|---:|
+| AI-first matched real | AI images | 65.2% | 2.45 |
+| AI-first matched real | Real images | 39.7% | 2.92 |
+| Real-to-AI modification | AI images | 37.5% | 3.01 |
+| Real-to-AI modification | Real images | 44.7% | 3.07 |
+
+![Figure 4. Source-judgement accuracy by material creation route.](../Submissions/accuracy_by_creation_route.png)
+
+The route-by-source pattern was especially important. AI images in the AI-first matched-real
+route were identified relatively accurately (65.2%), while real images in the same route were
+often misclassified (39.7%). In contrast, AI images created through real-to-AI modification
+had the lowest accuracy (37.5%) and a higher mean trust rating (M = 3.01).
+
 The attitude items showed a cautious pattern of media trust. Respondents generally did not
 agree that online images and screenshots usually reflect reality (M = 2.39). At the same
 time, many respondents agreed that platform elements such as interfaces, comments, or

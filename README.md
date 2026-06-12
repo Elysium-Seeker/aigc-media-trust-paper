@@ -23,7 +23,9 @@ Paper/
     Answer_Key_Internal.md
     Materials_Manifest.csv
     Results_Summary.md
+    Results_By_Material_Creation_Route.md
     Survey_Responses_Anonymized.xlsx
+    material_pair_contact_sheet.png
     materials/
       images/
   References/
@@ -39,6 +41,7 @@ Paper/
     Class 3 Group 6 IMRD.docx
     Class 3 Group 6 IMRD revised.docx
     accuracy_by_category.png
+    accuracy_by_creation_route.png
     stimulus_examples.png
     trust_by_category.png
 ```
@@ -49,12 +52,13 @@ Paper/
 - `CONTRIBUTION_LOG.md`：小组成员名单和按日期记录的贡献日志。
 - `final_report_group6.docx`：最终成品论文 Word 文件。
 - `Manuscript/`：论文正文草稿。后续写作和修改主要在这里进行。
-- `Appendices/Reconstructed_AI_Image_Prompts.md`：根据最终 AI 图片材料反推的提示词准备稿。由于原始提示词未保存，该文件只能作为重建版方法记录，不能当作原始生成记录。
+- `Appendices/Reconstructed_AI_Image_Prompts.md`：记录实验材料的 AI/真实图配对、材料生成路线，以及根据最终 AI 图片材料反推的提示词。由于原始提示词未完整保存，该文件只能作为重建版方法记录，不能当作原始生成记录。
 - `Submissions/`：按课程作业格式整理出的阶段性提交文件。
 - `Experiment/Questionnaire_WJX.txt`：问卷星导入文本，面向参与者，不包含答案。
-- `Experiment/Materials_Manifest.csv`：实验材料清单，记录每张图片对应的来源判断题、可信度题、真实标签和文件路径。
+- `Experiment/Materials_Manifest.csv`：实验材料清单，记录每张图片对应的配对编号、来源判断题、可信度题、真实标签、文件路径和材料生成路线。
 - `Experiment/Answer_Key_Internal.md`：研究者内部使用的答案和评分规则，不应发给问卷参与者。
 - `Experiment/Results_Summary.md`：问卷结果的汇总统计，不包含个人答卷元数据。
+- `Experiment/Results_By_Material_Creation_Route.md`：按材料生成路线重新整理的准确率和可信度分析。
 - `Experiment/Survey_Responses_Anonymized.xlsx`：去标识化后的问卷答卷数据，保留题目回答，移除提交时间、IP 等问卷星元数据。
 - `References/References_APA.md`：APA 格式参考文献列表。
 - `References/Source_Links.md`：引用来源链接和本地文件保存情况。

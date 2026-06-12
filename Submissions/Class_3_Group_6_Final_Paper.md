@@ -14,14 +14,16 @@ uses a mixed evidence design: previous experimental studies provide the main res
 background, while a small-scale Wenjuanxing survey supplies supplementary local evidence. The
 survey included 18 image-only stimuli across five visual categories: text-bearing visual
 artifacts, portraits, livestream commerce screenshots, food photographs, and virtual
-livestream interfaces. After screening, 66 valid responses were analyzed. The overall
-source-judgement accuracy was 47.4%, with higher accuracy for AI-generated images (52.9%)
-than for real images or screenshots (41.9%). Trust ratings were moderate: real images
-received a slightly higher mean trust rating (M = 2.99) than AI-generated images (M = 2.70).
-These findings suggest that the problem is not only that users may believe AI-generated
-images, but also that they may become suspicious of real visual evidence. The paper argues
-that platform labels, content provenance systems, and media literacy education should address
-both fake images and fake visual contexts.
+livestream interfaces. The stimuli were prepared through two routes: some AI images were
+generated first and then matched with similar real images, while others were created by
+modifying real-image references through AI. After screening, 66 valid responses were
+analyzed. The overall source-judgement accuracy was 47.4%, with higher accuracy for
+AI-generated images (52.9%) than for real images or screenshots (41.9%). Route-level analysis
+showed that real-to-AI modified images were especially difficult to identify. These findings
+suggest that the problem is not only that users may believe AI-generated images, but also that
+they may become suspicious of real visual evidence. The paper argues that platform labels,
+content provenance systems, and media literacy education should address both fake images and
+fake visual contexts.
 
 **Keywords:** AI-generated images; media trust; screenshots; misinformation; visual evidence
 
@@ -169,6 +171,16 @@ treated as a statistically representative sample of all online images. Instead, 
 designed to compare responses across selected types of online visual evidence. The
 participant-facing questionnaire did not reveal whether a file was AI-generated or real.
 
+The stimulus set was also prepared through two material creation routes. In five pairs, an
+AI-generated image was prepared first and a visually similar real image was later selected for
+comparison. In four pairs, a real image was used as the source or reference for an
+AI-modified counterpart. This route variable was added after the main category analysis in
+order to examine whether the production route of the stimulus was related to source judgement
+and trust ratings. The route variable should be interpreted descriptively because it was not
+randomly assigned and was partly connected with the available image categories. The full
+stimulus pairing, route labels, and reconstructed generation prompts are provided in the
+appendices.
+
 ![Figure 1. Examples of survey stimuli by source and visual category.](stimulus_examples.png)
 
 ### 3.4 Procedure
@@ -197,9 +209,9 @@ accuracy score.
 
 Trust was measured through one five-point rating for each visual item, from 1 ("not
 trustworthy at all") to 5 ("very trustworthy"). Mean trust ratings were calculated by image
-source and by visual category. Additional attitude items measured general trust in online
-images and screenshots, the perceived credibility effect of interface elements, verification
-habits, and self-confidence in visual judgement.
+source, visual category, and material creation route. Additional attitude items measured
+general trust in online images and screenshots, the perceived credibility effect of interface
+elements, verification habits, and self-confidence in visual judgement.
 
 ## 4. Results
 
@@ -261,6 +273,32 @@ screenshots (M = 2.70), and food photographs (M = 2.62).
 
 ![Figure 3. Mean trust rating by visual category.](trust_by_category.png)
 
+### 4.4 Material Creation Route Analysis
+
+Because the stimulus set used two preparation routes, an additional descriptive analysis
+compared accuracy and trust by material creation route. Items from the AI-first matched-real
+route had an overall accuracy of 52.4% and a mean trust rating of 2.69. Items from the
+real-to-AI modification route had lower overall accuracy (41.1%) and a higher mean trust
+rating (M = 3.04).
+
+The route-by-source pattern was especially important. AI images in the AI-first matched-real
+route were identified relatively accurately (65.2%), while real images in the same route were
+often misclassified (39.7%). In contrast, AI images created through real-to-AI modification
+had the lowest accuracy (37.5%) and a higher mean trust rating (M = 3.01). This descriptive
+pattern suggests that AI images based on real-image references may be harder for respondents
+to identify than AI images generated independently and then paired with similar real images.
+
+**Table 4. Accuracy and trust by material creation route**
+
+| Material creation route | Image source | Accuracy | Mean trust rating |
+|---|---|---:|---:|
+| AI-first matched real | AI images | 65.2% | 2.45 |
+| AI-first matched real | Real images | 39.7% | 2.92 |
+| Real-to-AI modification | AI images | 37.5% | 3.01 |
+| Real-to-AI modification | Real images | 44.7% | 3.07 |
+
+![Figure 4. Source-judgement accuracy by material creation route.](accuracy_by_creation_route.png)
+
 The attitude items showed a cautious pattern of media trust. Respondents generally did not
 agree that online images and screenshots usually reflect reality (M = 2.39). At the same
 time, many respondents agreed that platform elements such as interfaces, comments, or
@@ -286,6 +324,13 @@ the fact that polished food photography can look artificial even when it is real
 ratings were moderate rather than high, and the difference between real and AI-generated
 images was relatively small. This suggests that viewers may experience uncertainty even when
 they do not strongly trust the images.
+
+The material creation route analysis adds a further qualification. AI images created through
+real-to-AI modification were less accurately identified than AI images in the AI-first
+matched-real route. They also received higher trust ratings. This suggests that when AI
+generation preserves the composition, subject matter, or visual realism of a real reference,
+the resulting synthetic image may be more difficult to separate from authentic visual
+material.
 
 ### 5.2 Comparison with Previous Studies
 
@@ -324,7 +369,14 @@ categories, including ordinary photographs and screenshot-like images. This desi
 possible to compare category-level patterns, but it also limits generalization. The results
 should therefore be treated as descriptive evidence from a small exploratory survey.
 
-A third explanation concerns visual context. Screenshot-like materials contain contextual
+A third explanation concerns material creation route. In the AI-first matched-real route, the
+AI images may have retained more visible synthetic features, which could explain why they were
+identified more accurately. In the real-to-AI modification route, however, the AI image was
+based on a real reference. This may have preserved natural composition, lighting, or platform
+layout, making the AI-modified image more believable. This interpretation remains tentative
+because the route variable was not experimentally controlled.
+
+A fourth explanation concerns visual context. Screenshot-like materials contain contextual
 cues, such as usernames, comments, platform layout, product labels, prices, or livestream
 interfaces. These cues can make an image feel less like a standalone picture and more like a
 record of an online event. Even when viewers are uncertain about the source of an image, such
@@ -336,11 +388,13 @@ Several limitations should be acknowledged. First, the survey used a small conve
 of university-level respondents, so the findings should not be generalized to all social
 media users. Second, the stimulus set contained only 18 images, and differences in topic,
 image quality, platform style, and visual familiarity may have influenced respondents'
-judgements. Third, the original prompts used to generate the AI images were not preserved.
-Any later prompt appendix should therefore be described as reconstructed documentation rather
-than an exact record of the original generation process. Finally, because the study used
-descriptive statistics, it cannot establish causal relationships between image type, trust,
-and source judgement.
+judgements. Third, the two material creation routes were not randomly assigned or evenly
+distributed across all categories, so the route analysis should be interpreted as exploratory.
+Fourth, the original prompts used to generate the AI images were not fully preserved. The
+prompt appendix therefore provides reconstructed documentation rather than an exact record of
+the original generation process. Finally, because the study used descriptive statistics, it
+cannot establish causal relationships between image type, trust, production route, and source
+judgement.
 
 Despite these limitations, the findings have practical implications. Platforms and educators
 should not assume that users can reliably identify AI-generated images through visual
@@ -361,11 +415,14 @@ between real and AI-generated images.
 
 The main implication is that the social risk of AI-generated visual content is broader than
 the production of false images. As synthetic images become more realistic, real visual
-evidence may also become easier to doubt. This is especially important for screenshot-like
-materials, which often carry platform cues that make them appear socially credible. Ordinary
-visual judgement is therefore insufficient for evaluating online images. A more effective
-response requires platform-level labeling, stronger provenance systems, verification habits,
-and media literacy education that addresses both fake images and fake visual contexts.
+evidence may also become easier to doubt. The route analysis further suggests that
+AI-modified versions of real-image references may be especially difficult to identify because
+they can inherit realistic composition and contextual cues from the source material. This is
+especially important for screenshot-like materials, which often carry platform cues that make
+them appear socially credible. Ordinary visual judgement is therefore insufficient for
+evaluating online images. A more effective response requires platform-level labeling,
+stronger provenance systems, verification habits, and media literacy education that addresses
+both fake images and fake visual contexts.
 
 ## References
 
@@ -424,3 +481,101 @@ Society, 6*(1). https://doi.org/10.1177/2056305120903408
 
 Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online.
 *Science, 359*(6380), 1146-1151. https://doi.org/10.1126/science.aap9559
+
+## Appendix A. Stimulus Pairing and Material Creation Routes
+
+The survey stimuli were organized into nine AI/real pairs. The pairings were used to compare
+AI-generated and real visual materials within similar online visual categories. The route
+labels document how the materials were prepared for the survey.
+
+| Pair | Category | AI image | Real image | Material creation route |
+|---|---|---|---|---|
+| P1 | Text-bearing visual artifact | Image 1 | Image 2 | AI-first matched real |
+| P2 | Text-bearing visual artifact | Image 3 | Image 4 | Real-to-AI modification |
+| P3 | Portrait | Image 6 | Image 5 | AI-first matched real |
+| P4 | Portrait | Image 7 | Image 8 | Real-to-AI modification |
+| P5 | Livestream commerce screenshot | Image 9 | Image 10 | AI-first matched real |
+| P6 | Livestream commerce screenshot | Image 11 | Image 12 | Real-to-AI modification |
+| P7 | Food photo | Image 13 | Image 14 | AI-first matched real |
+| P8 | Food photo | Image 15 | Image 16 | Real-to-AI modification |
+| P9 | Virtual livestream interface | Image 18 | Image 17 | AI-first matched real |
+
+In the AI-first matched-real route, an AI-generated image was prepared first, and a visually
+similar real image was later selected for comparison. In the real-to-AI modification route, a
+real image was used as the source or reference for an AI-modified counterpart. The full file
+paths, question numbers, labels, and route notes are recorded in `Experiment/Materials_Manifest.csv`.
+
+## Appendix B. Reconstructed AI Image Prompts
+
+The original prompts were not fully preserved during early material preparation. The prompts
+below are therefore reconstructed from the final AI-generated stimuli and the documented
+material workflow. They should be treated as methodological documentation, not as exact
+generation logs.
+
+**Image 1, P1, text-bearing visual artifact, AI-first matched real.**
+Create a realistic vintage postcard-style image inspired by *The Little Prince*, with a
+small childlike figure sitting on a planet under a dark blue starry sky, a tall white rocket,
+a moon, and a split postcard layout with handwritten English text, postage stamp, and
+postmark. Make it look like a photographed paper artifact, with aged texture and imperfect
+typography.
+
+**Image 3, P2, text-bearing visual artifact, real-to-AI modification.**
+Using an old handwritten postcard as the visual reference, generate a similar aged European
+postcard on cream paper. Preserve the postcard layout, stamp area, postmark, address lines,
+and handwritten message, but make the text and paper texture look naturally imperfect rather
+than digitally clean.
+
+**Image 6, P3, portrait, AI-first matched real.**
+Create a black-and-white cinematic portrait photograph of a young adult man sitting indoors
+beside a tall window. Use dramatic side lighting, deep shadows, realistic facial detail, a
+white shirt, and a quiet documentary photography style.
+
+**Image 7, P4, portrait, real-to-AI modification.**
+Using a black-and-white street portrait as a reference, generate a similar documentary-style
+image of a middle-aged man walking in profile beside a textured wall. Preserve the high
+contrast, dark clothing, urban setting, and strong shadow structure.
+
+**Image 9, P5, livestream commerce screenshot, AI-first matched real.**
+Create a vertical mobile livestream shopping screenshot in a Chinese e-commerce app. Show a
+male host wearing glasses and holding a food product, with dense interface overlays, comment
+bubbles, discount labels, viewer icons, hearts, buttons, and product cards. Make the image
+look like a real livestream commerce screen capture.
+
+**Image 11, P6, livestream commerce screenshot, real-to-AI modification.**
+Using a real livestream commerce screenshot as a reference, generate a similar vertical
+mobile shopping interface. Show a young female host, green promotional banners, Chinese
+discount text, product packaging, comment overlays, purchase buttons, and a busy platform
+layout.
+
+**Image 13, P7, food photo, AI-first matched real.**
+Create a realistic restaurant food photograph of a bowl of Japanese ramen on a wooden
+counter. Include sliced pork, soft-boiled eggs, green onions, seaweed, chopsticks, a water
+glass, and warm indoor lighting. Use shallow depth of field and smartphone food photography
+realism.
+
+**Image 15, P8, food photo, real-to-AI modification.**
+Using a real plated noodle photograph as a reference, generate a similar close-up food photo
+of stir-fried noodles on a white plate. Preserve the plate angle, glossy sauce, vegetables,
+and restaurant lighting while making the image appear like a natural food photograph.
+
+**Image 18, P9, virtual livestream interface, AI-first matched real.**
+Create a wide VTuber livestream interface screenshot with a blue-haired anime-style virtual
+streamer in the center, blue starry stage design, live chat panels, donation or viewer
+counters, stream labels, and decorative UI overlays. Make it look like a real virtual
+livestream screen capture rather than a standalone illustration.
+
+## Appendix C. Supplementary Route-Level Results
+
+The following descriptive tables use the same 66 valid responses as the main analysis.
+
+| Material creation route | Items | Accuracy | Mean trust rating |
+|---|---:|---:|---:|
+| AI-first matched real | 660 | 52.4% | 2.69 |
+| Real-to-AI modification | 528 | 41.1% | 3.04 |
+
+| Material creation route | Image source | Items | Accuracy | Mean trust rating |
+|---|---|---:|---:|---:|
+| AI-first matched real | AI images | 330 | 65.2% | 2.45 |
+| AI-first matched real | Real images | 330 | 39.7% | 2.92 |
+| Real-to-AI modification | AI images | 264 | 37.5% | 3.01 |
+| Real-to-AI modification | Real images | 264 | 44.7% | 3.07 |

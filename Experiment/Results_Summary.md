@@ -52,6 +52,24 @@ should not be committed to the public GitHub repository.
 | Food photographs | 31.1% |
 | Virtual livestream interfaces | 54.5% |
 
+## Material Creation Route Analysis
+
+The stimulus set used two material creation routes: AI-generated-first images matched with
+similar real images, and real-image-based AI modifications. The route analysis uses the same
+66 valid responses as the main analysis.
+
+| Material creation route | Accuracy | Mean trust |
+|---|---:|---:|
+| AI-first matched real | 52.4% | 2.69 |
+| Real-to-AI modification | 41.1% | 3.04 |
+
+| Material creation route | Image source | Accuracy | Mean trust |
+|---|---|---:|---:|
+| AI-first matched real | AI-generated images | 65.2% | 2.45 |
+| AI-first matched real | Real images/screenshots | 39.7% | 2.92 |
+| Real-to-AI modification | AI-generated images | 37.5% | 3.01 |
+| Real-to-AI modification | Real images/screenshots | 44.7% | 3.07 |
+
 ## Trust Ratings
 
 Trust was measured on a 1-5 scale, where higher values indicate greater perceived

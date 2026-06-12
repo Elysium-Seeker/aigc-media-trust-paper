@@ -1,19 +1,19 @@
-image_id,material_path,ground_truth,source_question_id,trust_question_id,category,notes
-Image 1,materials/images/ai/text_artifact_ai_01.jpg,AI,Q5,Q6,text-bearing visual artifact,AI-generated postcard-style image
-Image 2,materials/images/real/text_artifact_real_01.png,real,Q7,Q8,text-bearing visual artifact,real postcard/document image
-Image 3,materials/images/ai/text_artifact_ai_02.jpg,AI,Q9,Q10,text-bearing visual artifact,AI-generated postcard-style image
-Image 4,materials/images/real/text_artifact_real_02.jpg,real,Q11,Q12,text-bearing visual artifact,real postcard/document image
-Image 5,materials/images/real/portrait_real_01.jpg,real,Q13,Q14,portrait,real portrait photograph
-Image 6,materials/images/ai/portrait_ai_01.jpg,AI,Q15,Q16,portrait,AI-generated portrait photograph
-Image 7,materials/images/ai/portrait_ai_02.jpg,AI,Q17,Q18,portrait,AI-generated street portrait photograph
-Image 8,materials/images/real/portrait_real_02.jpg,real,Q19,Q20,portrait,real street portrait photograph
-Image 9,materials/images/ai/livestream_commerce_ai_01.jpg,AI,Q21,Q22,livestream commerce screenshot,AI-generated livestream shopping interface
-Image 10,materials/images/real/livestream_commerce_real_01.jpg,real,Q23,Q24,livestream commerce screenshot,real livestream shopping screenshot
-Image 11,materials/images/ai/livestream_commerce_ai_02.jpg,AI,Q25,Q26,livestream commerce screenshot,AI-generated livestream shopping interface
-Image 12,materials/images/real/livestream_commerce_real_02.jpg,real,Q27,Q28,livestream commerce screenshot,real livestream shopping screenshot
-Image 13,materials/images/ai/food_photo_ai_01.jpg,AI,Q29,Q30,food photo,AI-generated food photograph
-Image 14,materials/images/real/food_photo_real_01.png,real,Q31,Q32,food photo,real food photograph
-Image 15,materials/images/ai/food_photo_ai_02.jpg,AI,Q33,Q34,food photo,AI-generated food photograph
-Image 16,materials/images/real/food_photo_real_02.jpg,real,Q35,Q36,food photo,real food photograph
-Image 17,materials/images/real/virtual_livestream_real_01.png,real,Q37,Q38,virtual livestream interface,real VTuber livestream interface
-Image 18,materials/images/ai/virtual_livestream_ai_01.jpg,AI,Q39,Q40,virtual livestream interface,AI-generated VTuber livestream interface
+image_id,pair_id,paired_image_id,material_path,ground_truth,source_question_id,trust_question_id,category,material_creation_route,route_notes,notes
+Image 1,P1,Image 2,materials/images/ai/text_artifact_ai_01.jpg,AI,Q5,Q6,text-bearing visual artifact,AI-first matched real,AI image was prepared first; a visually similar real image was later selected.,AI-generated postcard-style image
+Image 2,P1,Image 1,materials/images/real/text_artifact_real_01.png,real,Q7,Q8,text-bearing visual artifact,AI-first matched real,AI image was prepared first; a visually similar real image was later selected.,real postcard/document image
+Image 3,P2,Image 4,materials/images/ai/text_artifact_ai_02.jpg,AI,Q9,Q10,text-bearing visual artifact,real-to-AI modification,Real image was used as the reference/source style for an AI-modified counterpart.,AI-generated postcard-style image
+Image 4,P2,Image 3,materials/images/real/text_artifact_real_02.jpg,real,Q11,Q12,text-bearing visual artifact,real-to-AI modification,Real image was used as the reference/source style for an AI-modified counterpart.,real postcard/document image
+Image 5,P3,Image 6,materials/images/real/portrait_real_01.jpg,real,Q13,Q14,portrait,AI-first matched real,AI image was prepared first; a visually similar real image was later selected.,real portrait photograph
+Image 6,P3,Image 5,materials/images/ai/portrait_ai_01.jpg,AI,Q15,Q16,portrait,AI-first matched real,AI image was prepared first; a visually similar real image was later selected.,AI-generated portrait photograph
+Image 7,P4,Image 8,materials/images/ai/portrait_ai_02.jpg,AI,Q17,Q18,portrait,real-to-AI modification,Real image was used as the reference/source style for an AI-modified counterpart.,AI-generated street portrait photograph
+Image 8,P4,Image 7,materials/images/real/portrait_real_02.jpg,real,Q19,Q20,portrait,real-to-AI modification,Real image was used as the reference/source style for an AI-modified counterpart.,real street portrait photograph
+Image 9,P5,Image 10,materials/images/ai/livestream_commerce_ai_01.jpg,AI,Q21,Q22,livestream commerce screenshot,AI-first matched real,AI image was prepared first; a visually similar real image was later selected.,AI-generated livestream shopping interface
+Image 10,P5,Image 9,materials/images/real/livestream_commerce_real_01.jpg,real,Q23,Q24,livestream commerce screenshot,AI-first matched real,AI image was prepared first; a visually similar real image was later selected.,real livestream shopping screenshot
+Image 11,P6,Image 12,materials/images/ai/livestream_commerce_ai_02.jpg,AI,Q25,Q26,livestream commerce screenshot,real-to-AI modification,Real image was used as the reference/source style for an AI-modified counterpart.,AI-generated livestream shopping interface
+Image 12,P6,Image 11,materials/images/real/livestream_commerce_real_02.jpg,real,Q27,Q28,livestream commerce screenshot,real-to-AI modification,Real image was used as the reference/source style for an AI-modified counterpart.,real livestream shopping screenshot
+Image 13,P7,Image 14,materials/images/ai/food_photo_ai_01.jpg,AI,Q29,Q30,food photo,AI-first matched real,AI image was prepared first; a visually similar real image was later selected.,AI-generated food photograph
+Image 14,P7,Image 13,materials/images/real/food_photo_real_01.png,real,Q31,Q32,food photo,AI-first matched real,AI image was prepared first; a visually similar real image was later selected.,real food photograph
+Image 15,P8,Image 16,materials/images/ai/food_photo_ai_02.jpg,AI,Q33,Q34,food photo,real-to-AI modification,Real image was used as the reference/source style for an AI-modified counterpart.,AI-generated food photograph
+Image 16,P8,Image 15,materials/images/real/food_photo_real_02.jpg,real,Q35,Q36,food photo,real-to-AI modification,Real image was used as the reference/source style for an AI-modified counterpart.,real food photograph
+Image 17,P9,Image 18,materials/images/real/virtual_livestream_real_01.png,real,Q37,Q38,virtual livestream interface,AI-first matched real,AI image was prepared first; a visually similar real image was later selected.,real VTuber livestream interface
+Image 18,P9,Image 17,materials/images/ai/virtual_livestream_ai_01.jpg,AI,Q39,Q40,virtual livestream interface,AI-first matched real,AI image was prepared first; a visually similar real image was later selected.,AI-generated VTuber livestream interface

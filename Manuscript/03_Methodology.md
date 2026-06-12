@@ -72,6 +72,14 @@ source-judgement question numbers, and trust-rating question numbers are listed 
 `Experiment/Materials_Manifest.csv`. The participant-facing questionnaire did not reveal
 whether a file was AI-generated or real.
 
+The stimulus set was also prepared through two material creation routes. In five pairs, an
+AI-generated image was prepared first and a visually similar real image was later selected for
+comparison. In four pairs, a real image was used as the source or reference for an
+AI-modified counterpart. This route variable was added after the main category analysis in
+order to examine whether the production route of the stimulus was related to source judgement
+and trust ratings. The route variable should be interpreted descriptively because it was not
+randomly assigned and was partly connected with the available image categories.
+
 ![Figure 1. Examples of survey stimuli by source and visual category.](../Submissions/stimulus_examples.png)
 
 ### 3.3.3 Procedure
@@ -107,9 +115,11 @@ interfaces.
 
 Image trust was measured through one five-point trust rating for each visual item. The
 analysis compared mean trust ratings for AI-generated images and real images, and also
-compared screenshot/interface-like images with ordinary photographs. Additional attitude items
-measured general trust in online images and screenshots, the persuasive effect of interface
-elements, verification habits, and self-confidence in visual judgement.
+compared screenshot/interface-like images with ordinary photographs. An additional
+route-level analysis compared accuracy and trust ratings between AI-first matched-real
+materials and real-to-AI modification materials. Additional attitude items measured general
+trust in online images and screenshots, the persuasive effect of interface elements,
+verification habits, and self-confidence in visual judgement.
 
 The attention-check item asked participants to select "completely disagree." Responses that
 failed this check were flagged and excluded from the main analysis before

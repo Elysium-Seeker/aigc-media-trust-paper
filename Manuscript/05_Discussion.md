@@ -19,6 +19,13 @@ moderate rather than high. Real images received a slightly higher mean trust rat
 suggest that visual authenticity is becoming difficult to judge, especially when real images
 look polished or artificial.
 
+The material creation route analysis adds a further qualification. AI images created through
+real-to-AI modification were less accurately identified than AI images in the AI-first
+matched-real route. They also received higher trust ratings. This suggests that when AI
+generation preserves the composition, subject matter, or visual realism of a real reference,
+the resulting synthetic image may be more difficult to separate from authentic visual
+material.
+
 ## 5.2 Comparison with Previous Studies
 
 The local survey results are consistent with previous research on AI-generated media
@@ -58,7 +65,14 @@ the set was not a random sample of all online images, the results should not be 
 too broadly. However, this purposive design was useful for comparing how respondents reacted
 to different types of online visual evidence.
 
-A third reason is that screenshot-like materials provide contextual cues. Elements such as
+A third reason is related to material creation route. In the AI-first matched-real route, the
+AI images may have retained more visible synthetic features, which could explain why they were
+identified more accurately. In the real-to-AI modification route, however, the AI image was
+based on a real reference. This may have preserved natural composition, lighting, or platform
+layout, making the AI-modified image more believable. This interpretation remains tentative
+because the route variable was not experimentally controlled.
+
+A fourth reason is that screenshot-like materials provide contextual cues. Elements such as
 platform layout, comments, prices, usernames, or livestream interfaces can make an image feel
 less like a standalone picture and more like a record of an online event. These cues may
 increase perceived credibility even when viewers are unsure about the image source. For this
@@ -72,9 +86,11 @@ university-level respondents, so the results should be interpreted as descriptiv
 representative of all social media users. Second, the stimulus set was purposively selected and
 contained only 18 images. Differences in image topic, resolution, platform style, and visual
 quality may have influenced participants' judgements. Third, the original prompts used to
-generate the AI images were not preserved. Any prompt appendix prepared for this project should
-therefore be treated as reconstructed documentation rather than an exact record of the original
-generation process.
+generate the AI images were not fully preserved. Any prompt appendix prepared for this project
+should therefore be treated as reconstructed documentation rather than an exact record of the
+original generation process. Fourth, the two material creation routes were not randomly
+assigned or evenly distributed across all categories, so the route analysis should be
+interpreted as exploratory.
 
 Even with these limitations, the findings suggest two practical implications. Platforms and
 educators should not assume that users can reliably identify AI-generated images through visual
