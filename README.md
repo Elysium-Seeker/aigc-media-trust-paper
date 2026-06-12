@@ -9,6 +9,7 @@ Paper/
   README.md
   PAPER_OUTLINE_CN.md
   CONTRIBUTION_LOG.md
+  final_report_group6.docx
   Manuscript/
     01_Introduction.md
     02_Literature_Review.md
@@ -31,6 +32,7 @@ Paper/
     Source_Notes.docx
     files/
   Submissions/
+    Class_3_Group_6_Final_Paper.md
     Class_Group_Name_IMR.md
     Class_3_Group_6_IMRD.md
     Class 3 Group 6 IMR.docx
@@ -45,6 +47,7 @@ Paper/
 
 - `PAPER_OUTLINE_CN.md`：中文论文大纲，说明研究目的、研究问题、论文结构和当前问卷设计。
 - `CONTRIBUTION_LOG.md`：小组成员名单和按日期记录的贡献日志。
+- `final_report_group6.docx`：最终成品论文 Word 文件。
 - `Manuscript/`：论文正文草稿。后续写作和修改主要在这里进行。
 - `Appendices/Reconstructed_AI_Image_Prompts.md`：根据最终 AI 图片材料反推的提示词准备稿。由于原始提示词未保存，该文件只能作为重建版方法记录，不能当作原始生成记录。
 - `Submissions/`：按课程作业格式整理出的阶段性提交文件。

@@ -15,7 +15,7 @@ not stored locally, use the link below when checking details.
 | Metzger & Flanagin (2013) | not downloaded | https://doi.org/10.1016/j.pragma.2013.07.012 |
 | Nightingale & Farid (2022) | not downloaded | https://doi.org/10.1073/pnas.2120481119 |
 | OpenAI GPT Image 2 model (2026) | not downloaded | https://developers.openai.com/api/docs/models/gpt-image-2 |
-| OpenAI C2PA in ChatGPT images (2026) | not downloaded | https://help.openai.com/en/articles/8912793-c2pa-in-chatgpt-images |
+| OpenAI C2PA and SynthID in OpenAI-generated images (2026) | not downloaded | https://help.openai.com/en/articles/8912793-c2pa-and-synthid-in-openai-generated-images |
 | Pennycook & Rand (2021) | not downloaded | https://doi.org/10.1016/j.tics.2021.02.007 |
 | Roca et al. (2025) | `files/Roca_et_al_2025_Detecting_Images.pdf` | https://arxiv.org/abs/2507.18640 |
 | UNESCO (2023) | `files/UNESCO_2023_Guidance_GenAI_Edu_Research.html` | https://doi.org/10.54675/PCSP7350 |

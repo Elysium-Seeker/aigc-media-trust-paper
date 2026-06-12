@@ -48,8 +48,8 @@ https://doi.org/10.1073/pnas.2120481119
 OpenAI. (2026a). *GPT Image 2 model.* OpenAI API.
 https://developers.openai.com/api/docs/models/gpt-image-2
 
-OpenAI. (2026b). *C2PA in ChatGPT images.* OpenAI Help Center.
-https://help.openai.com/en/articles/8912793-c2pa-in-chatgpt-images
+OpenAI. (2026b). *C2PA and SynthID in OpenAI-generated images.* OpenAI Help Center.
+https://help.openai.com/en/articles/8912793-c2pa-and-synthid-in-openai-generated-images
 
 Pennycook, G., & Rand, D. G. (2021). The psychology of fake news. *Trends in Cognitive
 Sciences, 25*(5), 388-402.
