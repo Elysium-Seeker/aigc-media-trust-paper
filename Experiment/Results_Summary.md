@@ -90,9 +90,9 @@ trustworthiness.
 
 ## Attitude Items
 
-| Item | Mean |
-|---|---:|
-| Q41: Online images/screenshots usually reflect reality | 2.39 |
-| Q43: Interface/comment/livestream elements make screenshots more believable | 3.09 |
-| Q44: I look for sources or context when seeing realistic online images | 3.79 |
-| Q45: I am confident in judging whether online images are real | 2.83 |
+| Item | Mean | Agree/strongly agree |
+|---|---:|---:|
+| Q41: Online images/screenshots usually reflect reality | 2.39 | 10/66 |
+| Q43: Interface/comment/livestream elements make screenshots more believable | 3.09 | 32/66 |
+| Q44: I look for sources or context when seeing realistic online images | 3.79 | 42/66 |
+| Q45: I am confident in judging whether online images are real | 2.83 | 17/66 |

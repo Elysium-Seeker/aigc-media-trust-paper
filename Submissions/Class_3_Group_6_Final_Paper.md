@@ -271,7 +271,14 @@ screenshots (M = 2.70), and food photographs (M = 2.62).
 | Livestream commerce screenshots | 2.70 |
 | Food photographs | 2.62 |
 
-![Figure 3. Mean trust rating by visual category.](trust_by_category.png)
+![Figure 3. Mean trust rating by image source.](trust_by_source.png)
+
+The source-level trust result shows a cautious rather than sharply divided pattern. Real
+images and screenshots were rated somewhat more trustworthy than AI-generated images, but
+both means remained close to the midpoint of the scale. This suggests that respondents did
+not treat "real" and "AI-generated" as completely separate trust categories.
+
+![Figure 4. Mean trust rating by visual category.](trust_by_category.png)
 
 ### 4.4 Material Creation Route Analysis
 
@@ -297,14 +304,21 @@ to identify than AI images generated independently and then paired with similar 
 | Real-to-AI modification | AI images | 37.5% | 3.01 |
 | Real-to-AI modification | Real images | 44.7% | 3.07 |
 
-![Figure 4. Source-judgement accuracy by material creation route.](accuracy_by_creation_route.png)
+![Figure 5. Source-judgement accuracy by material creation route.](accuracy_by_creation_route.png)
+
+### 4.5 Media-Trust Attitude Items
 
 The attitude items showed a cautious pattern of media trust. Respondents generally did not
 agree that online images and screenshots usually reflect reality (M = 2.39). At the same
 time, many respondents agreed that platform elements such as interfaces, comments, or
 livestream features can make screenshots more believable. Most respondents also reported
 verification habits: 42 out of 66 agreed or strongly agreed that they would look for sources
-or context when seeing realistic online images or screenshots.
+or context when seeing realistic online images or screenshots. However, confidence in
+personal judgement remained moderate to low (M = 2.83), with only 17 out of 66 respondents
+agreeing or strongly agreeing that they were confident in judging whether online images were
+real.
+
+![Figure 6. Mean agreement on media-trust attitude items.](attitude_item_means.png)
 
 ## 5. Discussion
 

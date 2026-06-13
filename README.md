@@ -41,10 +41,12 @@ Paper/
     Class 3 Group 6 IMR.docx
     Class 3 Group 6 IMRD.docx
     Class 3 Group 6 IMRD revised.docx
+    attitude_item_means.png
     accuracy_by_category.png
     accuracy_by_creation_route.png
     stimulus_examples.png
     trust_by_category.png
+    trust_by_source.png
 ```
 
 ## 主要文件
@@ -80,4 +82,4 @@ Paper/
 - 问卷星原始导出文件包含提交时间、IP 等元数据，只保留本地；公开仓库中使用汇总结果。
 - 新增引用时，同时更新 `References/References_APA.md` 和 `References/Source_Links.md`。
 - 不要把临时脚本、虚拟环境、缓存文件或本地工具文件夹放进本项目。
-- 从 GitHub 下载的完整仓库压缩包只作为本地临时参考，不提交到项目仓库。
+- 组员交接的完整仓库压缩包只作为本地临时参考；解压、吸收有效内容后，不提交重复仓库包。
