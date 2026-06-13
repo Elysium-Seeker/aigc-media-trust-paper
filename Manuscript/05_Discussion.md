@@ -17,7 +17,9 @@ screenshots had the highest accuracy (58.3%), followed by text-bearing visual ar
 moderate rather than high. Real images received a slightly higher mean trust rating
 (M = 2.99) than AI-generated images (M = 2.70), but the difference was small. These findings
 suggest that visual authenticity is becoming difficult to judge, especially when real images
-look polished or artificial.
+look polished or artificial. In other words, AI-generated visual content may damage media
+trust in two directions: it can make false visual evidence more credible, and it can make
+real visual evidence easier to doubt.
 
 The material creation route analysis adds a further qualification. AI images created through
 real-to-AI modification were less accurately identified than AI images in the AI-first

@@ -10,6 +10,7 @@ Paper/
   PAPER_OUTLINE_CN.md
   CONTRIBUTION_LOG.md
   final_report_group6.docx
+  final_report_group6.pptx
   Manuscript/
     01_Introduction.md
     02_Literature_Review.md
@@ -51,6 +52,7 @@ Paper/
 - `PAPER_OUTLINE_CN.md`：中文论文大纲，说明研究目的、研究问题、论文结构和当前问卷设计。
 - `CONTRIBUTION_LOG.md`：小组成员名单和按日期记录的贡献日志。
 - `final_report_group6.docx`：最终成品论文 Word 文件。
+- `final_report_group6.pptx`：最终汇报 PPT，由熊育博负责整理，用于口头展示论文背景、方法、结果和结论。
 - `Manuscript/`：论文正文草稿。后续写作和修改主要在这里进行。
 - `Appendices/Reconstructed_AI_Image_Prompts.md`：记录实验材料的 AI/真实图配对、材料生成路线，以及根据最终 AI 图片材料反推的提示词。由于原始提示词未完整保存，该文件只能作为重建版方法记录，不能当作原始生成记录。
 - `Submissions/`：按课程作业格式整理出的阶段性提交文件。
@@ -78,3 +80,4 @@ Paper/
 - 问卷星原始导出文件包含提交时间、IP 等元数据，只保留本地；公开仓库中使用汇总结果。
 - 新增引用时，同时更新 `References/References_APA.md` 和 `References/Source_Links.md`。
 - 不要把临时脚本、虚拟环境、缓存文件或本地工具文件夹放进本项目。
+- 从 GitHub 下载的完整仓库压缩包只作为本地临时参考，不提交到项目仓库。

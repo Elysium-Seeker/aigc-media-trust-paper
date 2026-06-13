@@ -19,11 +19,11 @@ generated first and then matched with similar real images, while others were cre
 modifying real-image references through AI. After screening, 66 valid responses were
 analyzed. The overall source-judgement accuracy was 47.4%, with higher accuracy for
 AI-generated images (52.9%) than for real images or screenshots (41.9%). Route-level analysis
-showed that real-to-AI modified images were especially difficult to identify. These findings
-suggest that the problem is not only that users may believe AI-generated images, but also that
-they may become suspicious of real visual evidence. The paper argues that platform labels,
-content provenance systems, and media literacy education should address both fake images and
-fake visual contexts.
+showed that real-to-AI modified images were especially difficult to identify. Taken together,
+the results suggest unstable source judgement rather than a simple inability to spot AI:
+respondents were not only vulnerable to synthetic images, but also became suspicious of real
+visual evidence. The paper argues that platform labels, content provenance systems, and media
+literacy education should address both fake images and fake visual contexts.
 
 **Keywords:** AI-generated images; media trust; screenshots; misinformation; visual evidence
 
@@ -311,11 +311,14 @@ or context when seeing realistic online images or screenshots.
 ### 5.1 Summary of Findings
 
 The local survey results are consistent with the broader literature on AI-generated media
-detection. The overall accuracy rate was below 50%, suggesting that respondents in this
-sample had difficulty distinguishing AI-generated images from real images. The source-level
-pattern is also important: respondents performed better on AI-generated images than on real
-images. This indicates that the problem was not only false acceptance of synthetic material,
-but also excessive suspicion toward authentic visual material.
+detection, but they also show a more specific pattern: source judgement was unstable. The
+overall accuracy rate was below 50%, suggesting that respondents in this sample had
+difficulty distinguishing AI-generated images from real images. The source-level pattern is
+also important: respondents performed better on AI-generated images than on real images. This
+indicates that the problem was not only false acceptance of synthetic material, but also
+excessive suspicion toward authentic visual material. In other words, AI-generated visual
+content may damage media trust in two directions. It can make false visual evidence more
+credible, and it can make real visual evidence easier to doubt.
 
 Category-level results further support this interpretation. Livestream commerce screenshots,
 text-bearing artifacts, and virtual livestream interfaces produced higher accuracy than
